@@ -1,0 +1,166 @@
+/* --------------------
+        全体的
+-------------------- */
+
+:root {
+  --theme-color: #3bbc6e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 30px;
+  color: #333;
+}
+
+/* --------------------
+        見出し
+-------------------- */
+
+h1, h2, h3 {
+  color: var(--theme-color);
+  border-bottom: dashed 0.1em var(--theme-color);
+}
+
+/* --------------------
+        リンク
+-------------------- */
+
+a {
+  color: var(--theme-color);
+  text-decoration: none;
+}
+
+/* --------------------
+        リスト
+-------------------- */
+
+ul {
+  list-style: none;
+}
+li:before {
+  content: "★";
+  color: var(--theme-color);
+}
+
+/* --------------------
+          表
+-------------------- */
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: solid 1px #f0f0f0;
+  min-width: 70%;
+}
+tr {
+  background-color: #fff;
+}
+tr:nth-child(2n) {
+  background-color: #f9f9f9;
+}
+th {
+  background: var(--theme-color);
+  color: #fff;
+}
+th, td {
+  border: solid 1px #f0f0f0;
+  padding: 0.5rem;
+}
+.PS1{
+  width: 300px;
+  margin-top: 14px;
+}
+.PS2{
+  width: 300px;
+  margin-top: 14px;
+}
+.PS3{
+  width: 350px;
+  margin-top: 14px;
+}
+.PS4{
+  width: 400px;
+  margin-top: 14px;
+}
+.PS5{
+  width: 390px;
+  margin-top: 14px;
+}
+.psp{
+  width: 350px;
+  margin-top: 14px;
+}
+.psvita{
+  width: 350px;
+  margin-top: 14px;
+}
+.psvitalog{
+  width: 350px;
+  margin-top: 14px;
+}
+.PS1log{
+  width: 300px;
+  margin-top: 14px;
+  margin-left: 14px;
+}
+.PS2log{
+  width: 350px;
+  margin-top: 14px;
+}
+.PS3log{
+  width: 350px;
+  margin-top: 14px;
+}
+.PS4log{
+  width: 350px;
+  margin-top: 14px;
+}
+.PS5log{
+  width: 350px;
+  margin-top: 14px;
+}
+.psplog{
+  width: 350px;
+  margin-top: 14px;
+}
+.FC{
+  width: 350px;
+  margin-top: 14px;
+}
+.FClog{
+  width: 350px;
+  margin-top: 14px;
+}
+.SFC{
+  width: 350px;
+  margin-top: 14px;
+}
+.SFClog{
+  width: 350px;
+  margin-top: 14px;
+}
+.N64{
+  width: 350px;
+  margin-top: 14px;
+}
+.N64log{
+  width: 350px;
+  margin-top: 14px;
+}
+.NGC{
+  width: 350px;
+  margin-top: 14px;
+}
+.NGClog{
+  width: 350px;
+  margin-top: 14px;
+}
