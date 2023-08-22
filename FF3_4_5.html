@@ -20,6 +20,8 @@
     <div class="swiper-slide"><img class="FFset" src="image/aaa.png"></div>
     <div class="swiper-slide"><img class="FFset" src="image/aaa.png"></div>
     <div class="swiper-slide"><img class="FFset" src="image/aaa.png"></div>
+	      <div class="swiper-slide"><img class="FFset" src="image/aaa.png"></div>]
+	      <div class="swiper-slide"><img class="FFset" src="image/aaa.png"></div>
   </div>
   <!-- If we need pagination -->
   <div class="swiper-pagination"></div>
@@ -37,7 +39,18 @@
   // Optional parameters
   direction: 'horizontal',
   loop: true,
-
+speed: 1000,
+			  effect: "coverflow",
+			  breakpoints:{
+				  640: {
+					  slidesPerRow: 2,
+					  slidesPerGroup: 2,
+				  },
+				  900: {
+					  slidesPerRow: 2,
+					  slidesPerGroup: 2,
+				  },
+			  },
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
