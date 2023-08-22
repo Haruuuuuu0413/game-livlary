@@ -170,3 +170,11 @@ th, td {
 @media screen and (max-width: 480px) {
 	/* 480px以下に適用されるCSS（スマホ用） */
 }
+.FF{
+  width: 300px;
+  margin-top: 14px;
+}
+.FFlog{
+  width: 300px;
+  margin-top: 14px;
+}
