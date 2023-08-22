@@ -4,12 +4,57 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <title>FINALFANTASY COLLECTION紹介ページ</title>
   </head>
   <body>
     <h1>FINALFANTASY COLLECTION</h1>
     <img class="FFlog" src="image/Final_Fantasy_wordmark.svg.png"><br>
-    <img class="FF" src="image/game-livlary.jpeg">
+	  <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img class="FFset" src="image/aaa.png"></div>
+    <div class="swiper-slide"><img class="FFset" src="image/aaa.png"></div>
+    <div class="swiper-slide"><img class="FFset" src="image/aaa.png"></div>
+    <div class="swiper-slide"><img class="FFset" src="image/aaa.png"></div>
+    <div class="swiper-slide"><img class="FFset" src="image/aaa.png"></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+	 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+	  <script>
+		  const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+	  </script>
     <h2>紹介</h2>
     <p>
       FINALFANTASY COLLECTIONとはスクウェア・フェニックスが販売していたPS1ソフトです<br>
