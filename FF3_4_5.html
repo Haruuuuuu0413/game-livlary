@@ -5,7 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>FINALFANTASY COLLECTION紹介ページ</title>
+    <style>
+            @media screen and (max-width:1024px){
+        .FFset{
+	width: 300px;
+	margin-top: 14px;
+	margin-left: 150px;
+}
+.FFlog{
+  width: 300px;
+  margin-top: 14px;
+  margin-left: 335px;
+}
+            }
+@media screen and (max-width:768px){
+        .FFset{
+	width: 300px;
+	margin-top: 14px;
+	margin-left: 150px;
+}
+.FFlog{
+  width: 300px;
+  margin-top: 14px;
+  margin-left: 200px;
+}
+            }
+      @media screen and (max-width:415px){
+        .FFset{
+	width: 300px;
+	margin-top: 14px;
+	margin-left: 27px;
+}
+.FFlog{
+  width: 300px;
+  margin-top: 14px;
+  margin-left: 19px;
+}
+      }
+@media screen and (max-width:414px){
+        .FFset{
+	width: 300px;
+	margin-top: 14px;
+	margin-left: 27px;
+}
+.FFlog{
+  width: 300px;
+  margin-top: 14px;
+  margin-left: 26px;
+}
+@media screen and (max-width:390px){
+        .FFset{
+	width: 300px;
+	margin-top: 14px;
+	margin-left: 14px;
+}
+.FFlog{
+  width: 300px;
+  margin-top: 14px;
+  margin-left: 19px;
+}
+  }
+@media screen and (max-width:375px){
+        .FFset{
+	width: 300px;
+	margin-top: 14px;
+	margin-left: 8px;
+}
+.FFlog{
+  width: 300px;
+  margin-top: 14px;
+  margin-left: 19px;
+}
+      }
+      }
+      @media screen and (max-width:320px){
+        .FFset{
+	width: 250px;
+	margin-top: 35px;
+	margin-left: 5px;
+}
+.FFlog{
+  width: 250px;
+  margin-top: 14px;
+  margin-left: 7px;
+}
+      }
+    </style>
   </head>
   <body>
     <h1>FINALFANTASY COLLECTION</h1>
@@ -20,7 +107,7 @@
     <div class="swiper-slide"><img class="FFset" src="image/aaa.png"></div>
     <div class="swiper-slide"><img class="FFset" src="image/aaa.png"></div>
     <div class="swiper-slide"><img class="FFset" src="image/aaa.png"></div>
-	      <div class="swiper-slide"><img class="FFset" src="image/aaa.png"></div>]
+	      <div class="swiper-slide"><img class="FFset" src="image/aaa.png"></div>
 	      <div class="swiper-slide"><img class="FFset" src="image/aaa.png"></div>
   </div>
   <!-- If we need pagination -->
@@ -41,16 +128,6 @@
   loop: true,
 speed: 1000,
 			  effect: "coverflow",
-			  breakpoints:{
-				  640: {
-					  slidesPerRow: 2,
-					  slidesPerGroup: 2,
-				  },
-				  900: {
-					  slidesPerRow: 2,
-					  slidesPerGroup: 2,
-				  },
-			  },
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
